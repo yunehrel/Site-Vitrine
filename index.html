@@ -1,0 +1,84 @@
+<!-- PAS TOUCHE <?php session_start(); ?> -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+      href="/style.css">
+    <title>Accueil</title>
+  </head>
+
+  <body>
+    <header class="accueil">
+      <div class="header">
+        <h1>Vitrine</h1>
+        <!-- PAS TOUCHE <?php
+        if(isset($_SESSION['username'])){
+          echo '<h2 class="test">Mon profil : <a class="connecté" href="profil.php">', $_SESSION["username"]. '</a><br /><a class="connexion" href="../include/deconnexion.php">Se déconnecter</a></h2>';
+        }
+        else {
+          echo '<h2><a class="connexion" href="inscrixion.php">Se connecter</a></h2>';
+        } ?> -->
+      </div>
+      <nav>
+        <div class="nav">
+          <a href="/index.html"><img class="icone"
+              src="images/home.svg"
+              alt=""> </a>
+        </div>
+        <div class="nav">
+          <a class="nav"
+            href="/pages/application.html">Notre application</a>
+        </div>
+        <div class="nav">
+          <a class="nav"
+            href="/pages/premium.html">Service Premium</a>
+        </div>
+        <div class="nav">
+          <a class="nav"
+            href="/pages/contact-us.html">Nous contacter</a>
+        </div>
+      </nav>
+    </header>
+    <div class="slide">
+      <div id="slide1">
+        <ul id="imageslide">
+          <li>
+            <img src="../images/item1.jpg"
+              alt="">
+          </li>
+          <li><img src="../images/item2.png"
+              alt="" /></li>
+          <li><img src="../images/item3.jpg"
+              alt="" /></li>
+        </ul>
+      </div>
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima mollitia corrupti
+      autem quidem et, fuga similique ratione, cupiditate rem, eveniet necessitatibus! Voluptatum,
+      sed deleniti. Porro eveniet ipsum reiciendis necessitatibus!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima mollitia corrupti
+      autem quidem et, fuga similique ratione, cupiditate rem, eveniet necessitatibus! Voluptatum,
+      sed deleniti. Porro eveniet ipsum reiciendis necessitatibus!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima mollitia corrupti
+      autem quidem et, fuga similique ratione, cupiditate rem, eveniet necessitatibus! Voluptatum,
+      sed deleniti. Porro eveniet ipsum reiciendis necessitatibus!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima mollitia corrupti
+      autem quidem et, fuga similique ratione, cupiditate rem, eveniet necessitatibus! Voluptatum,
+      sed deleniti. Porro eveniet ipsum reiciendis necessitatibus!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima mollitia corrupti
+      autem quidem et, fuga similique ratione, cupiditate rem, eveniet necessitatibus! Voluptatum,
+      sed deleniti. Porro eveniet ipsum reiciendis necessitatibus!</div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima mollitia corrupti
+    autem quidem et, fuga similique ratione, cupiditate rem, eveniet necessitatibus! Voluptatum,
+    sed deleniti. Porro eveniet ipsum reiciendis necessitatibus!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima mollitia corrupti
+    autem quidem et, fuga similique ratione, cupiditate rem, eveniet necessitatibus! Voluptatum,
+    sed deleniti. Porro eveniet ipsum reiciendis necessitatibus!
+    <footer>
+      <h2>© 2022 - J'ai pas d'idée - Bleach</h2>
+    </footer>
+  </body>
+
+</html>
