@@ -65,7 +65,6 @@ nav {
   align-items: center;
   padding: 5px;
   background-color: #dfc787;
-  border-radius: 0px 0px 50px 50px;
 }
 
 div.nav {
@@ -160,7 +159,7 @@ footer.pagesimple {
 div.blocindex {
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 50px;
+  margin-top: 25px;
   text-align: justify;
   margin-bottom: 50px;
 }
