@@ -63,8 +63,9 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   background-color: #dfc787;
+  border-radius: 0px 0px 50px 50px;
 }
 
 div.nav {
@@ -148,10 +149,18 @@ footer {
 }
 
 footer.pagesimple {
-  background-color: #5d5c7b;
+  background-color: #0f0f14;
   text-align: center;
   height: 100px;
   width: 100%;
-  position: absolute;
+
   bottom: 0;
+}
+
+div.blocindex {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  text-align: justify;
+  margin-bottom: 50px;
 }
