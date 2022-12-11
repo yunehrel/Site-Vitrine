@@ -13,6 +13,11 @@
   src: url('/fonts/ProzaLibre-Regular.ttf');
 }
 
+img.googleplay {
+  width: 200px;
+  cursor: pointer;
+}
+
 body {
   background-color: rgba(195, 201, 190, 0.9);
   width: 100%;
@@ -38,10 +43,12 @@ h3 {
   text-align: center;
 }
 
-img.icone {
-  width: 30px;
-  height: 30px;
+a {
+  text-decoration: none;
+  color: white;
 }
+
+/* !!! DEBUT !!! HAUT DE PAGE */
 
 header {
   width: 100%;
@@ -84,11 +91,7 @@ div.nav {
   font-size: 17px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
+/* !!! FIN !!! HAUT DE PAGE */
 
 /* !!! DEBUT !!! BARRE DEFILANTE IMAGES */
 div.slide {
@@ -157,16 +160,6 @@ footer.pagesimple {
   width: 100%;
   bottom: 0;
 }
-/* !!! FIN !!! BAS DE PAGE */
-
-div.blocindex {
-  margin-top: 25px;
-  margin-bottom: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: justify;
-  font-family: "ProzaLibre";
-}
 
 div.credit {
   margin-left: 15px;
@@ -184,4 +177,57 @@ div.paragraphe {
   text-align: justify;
 }
 
+/* !!! FIN !!! BAS DE PAGE */
 
+
+/* !!! DEBUT !!! INDEX */
+
+div.blocindex {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: justify;
+  font-family: "ProzaLibre";
+}
+
+/* !!! FIN !!! INDEX */
+
+/* !!! DEBUT !!! APP */
+
+div.bigbigblocapp {
+  padding: 35px 35px 35px 35px;
+}
+
+div.bigblocapp {
+  margin-top: 70px;
+  display: flex;
+  text-align: justify;
+  font-family: "ProzaLibre";
+}
+
+@media screen and (max-width: 780px) {
+  div.bigblocapp {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+  }
+}
+
+div.blocappt1 {
+  margin-right: 35px;
+}
+
+div.blocappt2 {
+  margin-left: 35px;
+}
+
+/* !!! FIN !!! APP */
+
+/* !!! DEBUT !!! CONTACT */
+
+/* !!! FIN !!! CONTACT */
+
+/* !!! DEBUT !!! PREMIUM */
+
+/* !!! FIN !!! PREMIUM */
