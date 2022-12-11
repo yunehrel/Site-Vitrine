@@ -33,7 +33,9 @@ h2 {
 }
 
 h3 {
-  line-height: 150%;
+  color: rgba(205, 207, 203, 0.9);
+  font-family: "ProzaLibre";
+  text-align: center;
 }
 
 img.icone {
@@ -64,7 +66,6 @@ width: 260px;
 margin-left: 15px;
 display: flex;
 align-items: center;
-border: 1px solid black;
 }
 
 nav {
@@ -73,7 +74,6 @@ nav {
   align-items: center;
   width: 100%;
   margin-right: 15px;
-  border: 1px solid green;
 }
 
 div.nav {
@@ -96,7 +96,7 @@ div.slide {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 150px;
+  padding-top: 115px;
 }
 
 #slide1 {
@@ -147,14 +147,13 @@ div.slide {
 /* !!! DEBUT !!! BAS DE PAGE */
 footer {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 footer.pagesimple {
+  display: flex;
+  justify-content: space-between;
   background-color: rgba(89, 92, 86, 0.9);
-  text-align: center;
-  height: 100px;
   width: 100%;
   bottom: 0;
 }
@@ -168,3 +167,21 @@ div.blocindex {
   text-align: justify;
   font-family: "ProzaLibre";
 }
+
+div.credit {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  place-self: start;
+  padding: 20px 0px;
+  }
+
+div.paragraphe { 
+  font-family: "ProzaLibre";
+  width: 35%;
+  padding: 20px 0px;
+  color: rgba(205, 207, 203, 0.9);
+  text-align: justify;
+}
+
+
