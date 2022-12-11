@@ -13,10 +13,6 @@
   src: url('/fonts/ProzaLibre-Regular.ttf');
 }
 
-img.googleplay {
-  width: 200px;
-  cursor: pointer;
-}
 
 body {
   background-color: rgba(195, 201, 190, 0.9);
@@ -69,7 +65,7 @@ div.header {
 }
 
 div.titre {
-width: 260px;
+width: 360px;
 margin-left: 15px;
 display: flex;
 align-items: center;
@@ -179,7 +175,6 @@ div.paragraphe {
 
 /* !!! FIN !!! BAS DE PAGE */
 
-
 /* !!! DEBUT !!! INDEX */
 
 div.blocindex {
@@ -203,23 +198,35 @@ div.bigblocapp {
   margin-top: 70px;
   display: flex;
   text-align: justify;
+  text-align-last: center;
   font-family: "ProzaLibre";
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 992px) {
   div.bigblocapp {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
   }
 }
 
 div.blocappt1 {
   margin-right: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 div.blocappt2 {
   margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img.googleplay {
+  width: 200px;
+  cursor: pointer;
+  place-self: center;
 }
 
 /* !!! FIN !!! APP */
