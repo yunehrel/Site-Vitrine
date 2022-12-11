@@ -39,6 +39,12 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  color: rgba(89, 92, 86, 0.9);
+  font-size: 40px;
+  font-family: "BebasNeue";
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -203,6 +209,14 @@ div.bigblocapp {
 }
 
 @media screen and (max-width: 992px) {
+  div.blocappt2{
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+  div.blocappt1{
+    margin-right: 0px !important;
+    margin-bottom: 20px;
+  }
   div.bigblocapp {
     display: flex;
     flex-direction: column;
@@ -232,6 +246,21 @@ img.googleplay {
 /* !!! FIN !!! APP */
 
 /* !!! DEBUT !!! CONTACT */
+
+div.bloccontact {
+  margin-top: 70px;
+  padding: 65px 35px 65px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 5px;
+}
 
 /* !!! FIN !!! CONTACT */
 
