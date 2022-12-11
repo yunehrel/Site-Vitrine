@@ -1,4 +1,3 @@
-<!-- PAS TOUCHE <?php session_start(); ?> -->
 <!DOCTYPE html>
 <html>
 
@@ -12,34 +11,29 @@
   <body>
     <header class="accueil">
       <div class="header">
-        <h1>Let's be Friend !</h1>
-        <!-- PAS TOUCHE <?php
-        if(isset($_SESSION['username'])){
-          echo '<h2 class="test">Mon profil : <a class="connecté" href="profil.php">', $_SESSION["username"]. '</a><br /><a class="connexion" href="../include/deconnexion.php">Se déconnecter</a></h2>';
-        }
-        else {
-          echo '<h2><a class="connexion" href="inscrixion.php">Se connecter</a></h2>';
-        } ?> -->
+        <div class="titre">
+        <h1>Let's be Friends.</h1>
+        </div>
+        <nav>
+          <div class="nav">
+            <a href="/index.html"><img class="icone"
+                src="images/home.svg"
+                alt=""> </a>
+          </div>
+          <div class="nav">
+            <a class="nav"
+              href="/pages/application.html">Notre application</a>
+          </div>
+          <div class="nav">
+            <a class="nav"
+              href="/pages/premium.html">Service Premium</a>
+          </div>
+          <div class="nav">
+            <a class="nav"
+              href="/pages/contact-us.html">Nous contacter</a>
+          </div>
+        </nav>
       </div>
-      <nav>
-        <div class="nav">
-          <a href="/index.html"><img class="icone"
-              src="images/home.svg"
-              alt=""> </a>
-        </div>
-        <div class="nav">
-          <a class="nav"
-            href="/pages/application.html">Notre application</a>
-        </div>
-        <div class="nav">
-          <a class="nav"
-            href="/pages/premium.html">Service Premium</a>
-        </div>
-        <div class="nav">
-          <a class="nav"
-            href="/pages/contact-us.html">Nous contacter</a>
-        </div>
-      </nav>
     </header>
     <div class="slide">
       <div id="slide1">
@@ -120,8 +114,8 @@ autem quidem et, fuga similique ratione, cupiditate rem, eveniet necessitatibus!
 sed deleniti. Porro eveniet ipsum reiciendis necessitatibus!</div>
   </body>
 
-  <footer class="pagesimple">  <!-- pagesimple le fixe en bas de l'écran-->
+  <footer class="pagesimple">
     <h2>© 2022 - J'ai pas d'idée - Bleach</h2>
   </footer>
 </html>
-<!-- pouet-->
+
