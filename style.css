@@ -277,13 +277,35 @@ div.blocpremiumt1 {
   display: flex;
   flex-direction: column;
   width: 58%;
+  padding: 45px 35px 65px 35px;
+  font-family: "ProzaLibre";
 }
 
 div.blocpremiumt2 {
   background-color: rgba(153, 160, 146, 0.9);
   display: flex;
   flex-direction: column;
-  height: 1500px;
+  height: 450px;
   width: 42%;
+  padding: 45px 35px 65px 35px;
+  font-family: "ProzaLibre";
 }
+
+
+div.abonnement {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input.boutonabo {
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(153, 160, 146, 0.9);
+  border-color: white;
+  color: white;
+  font-family: "ProzaLibre";  
+  font-size: 18px;
+}
+
+
 /* !!! FIN !!! PREMIUM */
