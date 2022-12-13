@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: "BebasNeue";
-   src: url('/fonts/BebasNeue-Regular.ttf'); /* Fichier .ttf */
+   src: url('fonts/BebasNeue-Regular.ttf'); /* Fichier .ttf */
 }
 
 @font-face {
   font-family: "ProzaLibre";
-  src: url('/fonts/ProzaLibre-Regular.ttf');
+  src: url('fonts/ProzaLibre-Regular.ttf');
 }
 
 
