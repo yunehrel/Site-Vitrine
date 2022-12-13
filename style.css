@@ -266,4 +266,24 @@ form {
 
 /* !!! DEBUT !!! PREMIUM */
 
+div.bigblocpremium {
+  background-color: white;
+  margin-top: 70px;
+  display: flex;
+}
+
+div.blocpremiumt1 {
+  background-color: rgba(195, 201, 190, 0.9);
+  display: flex;
+  flex-direction: column;
+  width: 58%;
+}
+
+div.blocpremiumt2 {
+  background-color: rgba(153, 160, 146, 0.9);
+  display: flex;
+  flex-direction: column;
+  height: 1500px;
+  width: 42%;
+}
 /* !!! FIN !!! PREMIUM */
