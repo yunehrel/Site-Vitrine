@@ -264,9 +264,19 @@ form {
   gap: 5px;
 }
 
-input.contact {
+input {
   border-radius: 10px;
+}
+
+input.contact {
   gap: 5px;
+  padding-left: 3px;
+  border: 1px solid black;
+}
+
+textarea{
+  border-radius: 10px;
+  padding-left: 3px
 }
 
 /* !!! FIN !!! CONTACT */
@@ -312,6 +322,8 @@ input.boutonabo {
   color: white;
   font-family: "ProzaLibre";  
   font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 
