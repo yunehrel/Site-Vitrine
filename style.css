@@ -15,7 +15,7 @@
 
 
 body {
-  background-color: rgba(195, 201, 190, 0.9);
+  background-color: #d7d9d7;
   width: 100%;
 }
 
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: rgba(89, 92, 86, 0.9);
+  color: rgba(153, 127, 93, 0.9);
   font-size: 40px;
   font-family: "BebasNeue";
 }
@@ -65,7 +65,7 @@ header.accueil {
 }
 
 div.header {
-  background-color: #5f6d51;
+  background-color: #BAACBD;
   height: 75px;
   display: flex; /* contenu linéaire */
 }
@@ -158,9 +158,10 @@ footer {
 footer.pagesimple {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(89, 92, 86, 0.9);
+  background-color: #86778a;
   width: 100%;
   bottom: 0;
+
 }
 
 div.credit {
@@ -175,7 +176,7 @@ div.paragraphe {
   font-family: "ProzaLibre";
   width: 35%;
   padding: 20px 0px;
-  color: rgba(205, 207, 203, 0.9);
+  color: rgba(213, 216, 210, 0.9);
   text-align: justify;
 }
 
@@ -184,10 +185,11 @@ div.paragraphe {
 /* !!! DEBUT !!! INDEX */
 
 div.blocindex {
-  margin-top: 25px;
-  margin-bottom: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: auto;
   text-align: justify;
   font-family: "ProzaLibre";
 }
@@ -249,7 +251,7 @@ img.googleplay {
 
 div.bloccontact {
   margin-top: 70px;
-  padding: 65px 35px 65px 35px;
+  padding: 85px 55px 85px 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,6 +261,11 @@ form {
   display: flex;
   flex-direction: column;
   width: 30%;
+  gap: 5px;
+}
+
+input.contact {
+  border-radius: 10px;
   gap: 5px;
 }
 
@@ -273,21 +280,21 @@ div.bigblocpremium {
 }
 
 div.blocpremiumt1 {
-  background-color: rgba(195, 201, 190, 0.9);
+  background-color: #d7d9d7;
   display: flex;
   flex-direction: column;
   width: 58%;
-  padding: 45px 35px 65px 35px;
+  padding: 55px 45px 75px 45px;
   font-family: "ProzaLibre";
 }
 
 div.blocpremiumt2 {
-  background-color: rgba(153, 160, 146, 0.9);
+  background-color: rgb(168, 156, 172);
   display: flex;
   flex-direction: column;
   height: 450px;
   width: 42%;
-  padding: 45px 35px 65px 35px;
+  padding: 55px 45px 75px 45px;
   font-family: "ProzaLibre";
 }
 
@@ -300,7 +307,7 @@ div.abonnement {
 
 input.boutonabo {
   padding: 5px 5px 5px 5px;
-  background-color: rgba(153, 160, 146, 0.9);
+  background-color: #cfc2d3;
   border-color: white;
   color: white;
   font-family: "ProzaLibre";  
