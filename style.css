@@ -294,7 +294,7 @@ div.blocpremiumt1 {
   display: flex;
   flex-direction: column;
   width: 58%;
-  padding: 55px 45px 75px 45px;
+  padding: 5% 3% 4% 3%;
   font-family: "ProzaLibre";
 }
 
@@ -304,10 +304,17 @@ div.blocpremiumt2 {
   flex-direction: column;
   height: 450px;
   width: 42%;
-  padding: 55px 45px 75px 45px;
+  padding: 5% 3% 4% 3%;
   font-family: "ProzaLibre";
 }
 
+div.petitblocpremiumt1 {
+  padding: 7%;
+}
+
+div.petitblocpremiumt2 {
+  padding: 10%;
+}
 
 div.abonnement {
   width: 100%;
@@ -317,7 +324,7 @@ div.abonnement {
 
 input.boutonabo {
   padding: 5px 5px 5px 5px;
-  background-color: #cfc2d3;
+  background-color: rgb(168, 156, 172);
   border-color: white;
   color: white;
   font-family: "ProzaLibre";  
