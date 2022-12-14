@@ -333,5 +333,9 @@ input.boutonabo {
   margin-top: 10px;
 }
 
+input.boutonabo:active {
+  border: 1px solid white
+}
+
 
 /* !!! FIN !!! PREMIUM */
