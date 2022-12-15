@@ -250,7 +250,6 @@ img.googleplay {
 /* !!! DEBUT !!! CONTACT */
 
 div.bloccontact {
-  margin-top: 70px;
   padding: 85px 55px 85px 55px;
   display: flex;
   flex-direction: column;
@@ -270,7 +269,7 @@ fieldset {
   background-color: #BAACBD;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-evenly
 }
 
 p.formulaire{
@@ -278,7 +277,7 @@ p.formulaire{
   font-family: "ProzaLibre";
 }
 
-fieldset, input
+fieldset, input.form, input.envoyer
 {
 	border: 2px solid #86778a;
 	border-radius: 8px;
@@ -290,7 +289,7 @@ h5{
   font-family: "BebasNeue";
 }
 
-input {
+input.form, input.envoyer {
   border-radius: 10px;
   height: 20px;
 	width: 300px;
@@ -302,7 +301,8 @@ textarea{
   border-radius: 10px;
   border: 2px solid #86778a;
   padding-left: 3px;
-  width: 300px
+  width: 300px;
+  resize: none
 }
 
 input.envoyer{
